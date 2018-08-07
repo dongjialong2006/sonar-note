@@ -7,8 +7,7 @@
 ### 安装sonar-scanner
 [sonar-scanner](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
 ### 创建sonar-scanner.properties
-`
-	//项目的key
+	`//项目的key
 	sonar.projectKey=snc:agent
 	
     //项目的名字
@@ -30,7 +29,6 @@
 	sonar.go.coverage.reportPaths=coverage.out
 	
     //登录
-	sonar.login=c2970a7d63e3a189455efa57ec31ed29996a9ed5
-`
+	sonar.login=c2970a7d63e3a189455efa57ec31ed29996a9ed5`
 ### 运行sonar-Scanner
 刷新http://localhost:9000即可
