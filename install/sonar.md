@@ -37,4 +37,4 @@
 	docker run --name sq --link db -e SONARQUBE_JDBC_URL=jdbc:postgresql://db:5432/sonar -p 9000:9000 -d sonarqube
 
 至此，sonar就安装好了 
-访问http://localhost:9000即可
+访问http://localhost:9000, 用admin/admin登录即可。
